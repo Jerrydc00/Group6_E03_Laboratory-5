@@ -1,0 +1,17 @@
+INSERT INTO Renter (RenterID, FirstName, MiddleInitial, LastName, Address, City, State, PostalCode, TelephoneNumber, Email)
+VALUES
+(1, 'Jerry', 'L', 'Dela Cruz', '117 Vergel de Dios', 'Bulacan', 'PH', '3004', '639954009674', 'jerrylandayandelacruz@gmail.com'),
+(2, 'Kimberly', 'L', 'Dela Cruz', '117 Vergel de Dios', 'Bulacan', 'PH', '3004', '639954009674', 'kimberlylandayandelacruz@gmail.com');
+
+
+
+# Insert Code here Brenzo
+
+
+
+
+
+
+# Insert code here Reian
+
+
