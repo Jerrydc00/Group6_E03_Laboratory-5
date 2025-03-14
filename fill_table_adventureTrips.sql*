@@ -1,0 +1,19 @@
+INSERT INTO Participants (Participant_ID, Last_Name, First_Name, Address, City, State, Postal_Code, Telephone_Number, Date_of_Birth) 
+VALUES 
+(1, 'Dela Cruz', 'Jeryry', '117 Vergel de Dios', 'Bulacan', 'PH', '3004', '639954009674', '2004-10-18'),
+(2, 'Sins', 'Johnny', 'XXXX', 'XXXXX', 'XX', '00000', '0000000', '0000-00-00'),
+(3, 'Reeves', 'Keanu', 'XXXXXX', 'XXXXX', 'XX', '000000', '000000', '0000-00-00');
+
+INSERT INTO Adventure_Classes (Class_Number, Class_Description, Max_Participants, Class_Fee) 
+VALUES 
+(101, 'Mountain Hiking', 20, 50.00),
+(102, 'Kayaking Adventure', 15, 75.00),
+(103, 'Rock Climbing Basics', 12, 100.00);
+
+INSERT INTO Enrollments (Participant_ID, Class_Number, Class_Date) 
+VALUES 
+(1, 101, '2024-06-15'),
+(2, 102, '2024-06-20'),
+(3, 103, '2024-07-05'),
+(1, 103, '2024-07-10'),  -- John Smith enrolled in Rock Climbing
+(2, 101, '2024-07-15');  -- Jane Doe enrolled in Mountain Hiking
